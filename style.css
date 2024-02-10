@@ -1,0 +1,265 @@
+* {
+ margin:0;
+ padding:0;
+ box-sizing: border-box;
+ background-position: 0;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section_1 {
+    height: 300px;
+    width: auto;
+    padding: 60px 0;
+    
+}
+
+.image{
+    height: 160px;
+    width: 160px;
+    border-radius: 60%;
+
+}
+
+@media only screen and (max-width:343px) {
+    .section_1{
+        height: 400px;
+        width: auto;
+        padding:40px 0px;
+    }
+    
+}
+
+/*Styles for About Me*/
+.About{
+    
+    margin-top: 20px;
+    border: 1px solid gray;
+    border-radius:10px;
+    padding-top: 10px;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+/*Hoving Effect*/
+.About:hover{
+    border-width: 2px;
+    border-color: black;
+    transform: scale(1.05);
+}
+.About h2{
+
+    font-size: 30px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 65%;
+    left: 2%;
+    background-color: white;
+    
+}
+
+.About p{
+    margin:10px;
+    margin-left: 20px;
+    font-family: cursive;
+    font-weight: 300;
+}
+
+@media only screen and (max-width:990px){
+
+    .About{
+    
+        margin-top: 20px;
+        border: 1px solid gray;
+        border-radius:10px;
+        padding-top: 10px;
+        position: relative;
+        
+    }
+
+    .About h2{
+
+        font-size: 30px;
+        font-weight: 500;
+        position: absolute;
+        bottom: 75%;
+        left: 2%;
+        background-color: white;
+        
+    }
+}
+
+/*Display About me accoding to the screen size*/
+@media only screen and (max-width:766px){
+
+    .About{
+        position: relative;
+        
+    }
+
+    .About h2{
+        position: absolute;
+        bottom: 80%;
+        left: 2%; 
+    }
+}
+
+@media only screen and (max-width:766px){
+
+    .About{
+        position: relative;
+        
+    }
+
+    .About h2{
+        position: absolute;
+        bottom: 80%;
+        left: 2%; 
+    }
+}
+
+@media only screen and (max-width:456px){
+
+    .About{
+        position: relative;
+        
+    }
+
+    .About h2{
+        position: absolute;
+        bottom: 82%;
+        left: 2%; 
+    }
+}
+
+@media only screen and (max-width:302px){
+
+    .About{
+        position: relative;
+        
+    }
+
+    .About h2{
+        position: absolute;
+        bottom: 88%;
+        left: 4%; 
+    }
+}
+
+@media only screen and (max-width:258px){
+
+    .About{
+        position: relative;
+        
+    }
+
+    .About h2{
+        position: absolute;
+        bottom: 90%;
+        left: 5%; 
+    }
+}
+
+@media only screen and (max-width:218px){
+
+    .About{
+        position: relative;
+        
+    }
+
+    .About h2{
+        position: absolute;
+        bottom: 92%;
+        left: 5%; 
+    }
+}
+
+
+
+/*Skill Section Styles*/
+
+.data {
+    transition: all 0.3s ease;
+}
+
+.data:hover{
+    transform: scale(1.2);
+}
+
+.Main_Container h3{
+    
+    text-transform: capitalize;
+    text-rendering: optimizeSpeed;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    
+}
+
+.Main_Container h4{
+    display: inline;
+    border: 1px solid aqua;
+    border-radius: 10%;
+    padding: 2px;
+    background-color: aqua;
+    font-size: 20px;
+}
+
+@media only screen and (max-width:338px){
+    .Main_Container h4{
+        text-wrap:nowrap;
+       font-size: 15px;
+        border:none;
+    }
+}
+
+/*section {
+    margin:10px auto;
+    height: 500px;
+    width: auto;
+    background-color: aquamarine;
+    position: relative;
+    background-image: url(Background_Img.jpg);
+    background-size: cover;
+}
+.Container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 130px;
+    left: 50px;
+}
+.Creativity{
+    position: absolute;
+    top:400px;
+    left: 35%;
+}
+  */
+
+/*nav {
+    background-color: aqua;
+}
+nav ul{
+    display: flex;
+    gap:1rem;
+    list-style: none;
+    padding: 2px 12px;
+    
+}
+
+nav ul li{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(172, 165, 165);
+}
+
+nav ul li a{
+    text-decoration-line: none;
+    text-decoration: none;
+    color: rgb(172, 165, 165);    
+}
+
+nav ul li:hover, nav ul li a:hover{
+    cursor: pointer;
+    color: black;
+
+}*/
+
