@@ -6,6 +6,7 @@
  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/*Intro*/
 .section_1 {
     height: 300px;
     width: auto;
@@ -27,6 +28,24 @@
         padding:40px 0px;
     }
     
+}
+
+@media only screen and (max-width:196px){
+    .image{
+        height: 140px;
+        width: 140px;
+        border-radius: 60%;
+    
+    } 
+}
+
+@media only screen and (max-width:180px){
+    .image{
+        height: 100px;
+        width: 100px;
+        border-radius: 60%;
+    
+    } 
 }
 
 /*Styles for About Me*/
@@ -196,7 +215,7 @@
 .Main_Container h4{
     display: inline;
     border: 1px solid aqua;
-    border-radius: 10%;
+    border-radius: 5%;
     padding: 2px;
     background-color: aqua;
     font-size: 20px;
@@ -208,6 +227,94 @@
        font-size: 15px;
         border:none;
     }
+}
+
+@media only screen and (max-width:230px){
+    .Main_Container h4{
+        text-wrap:wrap;
+       font-size: 15px;
+        border:none;
+    }
+}
+
+
+/*My Project*/
+
+.Image_Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    
+}
+
+@media only screen and (min-width:424px){
+    .Cards{
+        width: 15rem;
+        
+    }
+}
+
+/*Footer Style*/
+.Contact_Me {
+    display: flex;
+    flex-direction: column;
+    gap: 0px !important;
+    flex-wrap: wrap;
+}
+
+.Contact_Me a {
+    height: 30px;
+    width: 30px;
+    text-decoration: none;
+    color:black;
+    border: 1px solid black;
+    padding:2px;
+    border-radius: 50%;
+    
+}
+
+.Contact_Me_div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    display: none;
+}
+
+@media only screen and (max-width:234px){
+    .Contact_Me_div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .Contact_Me_p{
+        display: none;
+    }
+}
+
+.Follow_Me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:4px;
+    flex-wrap: wrap;
+}
+.Follow_Me a{
+    height: 30px;
+    width: 30px;
+    text-decoration: none;
+    color:black;
+    border: 1px solid black;
+    padding:2px;
+    border-radius: 50%;
+}
+
+.Follow_Me a i{
+    width: 100%;
+    height: 100%;
+
 }
 
 /*section {
